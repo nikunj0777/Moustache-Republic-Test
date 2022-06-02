@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Moustache Republic Test | Store</title>
+    <meta name="description" content="This is the description" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="store.js" async></script>
+  </head>
+  <body>
+    <header class="main-header" style="background-color: #f6f6f7 ; margin-left:40px; width:95%"> <button class="button1" onclick="myFunction()" style=" background-color: #f6f6f7 ; border: 0px solid #f6f6f7 ; padding-right: 120px; float: right; padding-bottom: 2px;">My cart (4)</button></header>
+
+    <section class="container content-section">
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title" style=" padding-left: 358px ; float:inline-start">Classic Tee</span>
+          <div>
+          <section> 
+              
+          <img class="shop-item-image" src="Images/classic-tee.jpg" style=" height: 500px; width: 350px; 
+          float: left; 
+          margin-right: 10px; "> 
+          <hr>
+          <span class="shop-item-price" style="padding-left: -10px; padding-top:-80px; float:inline-start ; font-weight: BOLD">Price: $75.00</span></section><hr>
+            <p style="padding-top:20px">
+                Dolor sit amet, consectetur adipiscing elit. Haec et ita posuisti, et verba vestra sunt. Quad autem ratione actum.Haec et ita posuisti, et verba vestra sunt. Quad autem ratione actum
+            </p>
+
+            <button class=" btn-default shop-item-button" style="border: 1px black solid" type="button">
+               S
+              </button>
+              <button class=" btn-default shop-item-button" style="border: 1px black solid" type="button">
+                M
+               </button>
+               <button class=" btn-default shop-item-button" style="border: 1px black solid" type="button">
+                XL
+               </button>
+           <p>
+            &nbsp;
+           </p>
+          <button class="btn btn-default " style="border: 1px solid black" type="button">
+            ADD TO CART
+          </button>
+        </section> 
+        
+        </div>
+  
+        </div>
+      </div>
+  
+      <div>
+          <p id="test">
+
+          </p>
+      </div>
+
+      <script>
+        function myFunction() {
+          document.getElementById("test").innerHTML = "<shop-item-price>";
+        }
+        </script>
+  </body>
+</html>
